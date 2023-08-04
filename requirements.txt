@@ -7,3 +7,5 @@ opencv_python==4.8.0.74
 pandas==1.5.3
 tqdm==4.65.0
 uvicorn==0.22.0
+Jinja2==3.1.2
+jinja2-time==0.2.0
