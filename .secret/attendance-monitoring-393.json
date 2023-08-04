@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "attendance-monitoring-393907",
+  "private_key_id": "ad8c658ff35320f5a84ce9a7b9c28d4df8cd79df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrI4L5Typgna6J\npBVqQSmpN03Q7a5t28SdzjajFpOD5c/E1uvrFu3rEwfTikMaW+1q//9K2Ax1KTOC\nLktBnFni/LO9iOOuiraOKJU3EBuZOo5ZfmaYJ2/tltq9z1KrCEZkerWG9yik5GlD\nMzbYa/1vD+lFV/aqcxaQ/+9YaUQnLYt+8bwJrEYVsVC+oLy57X2R1nyTLU6qhXs9\n+1KQTTP9F1XZBvupjfqkryB1I2KeSljJqg8c0Y7/S5urAHZqH4mayvhRDzN2yc24\n7y6dWiI38dxQ8pRj98xoP+XQZncMH1djpp9RFRQO2t4UnjS2/opVnH5V+4sO5L5W\neIgAxmMrAgMBAAECggEACo/Ybazu4IhPUH4K23H4g79aF7zre0+AGo+ystHaFcxR\nTGAArqXNjQRD3nUeyOwsMD4hpGcPdlWb1WiWJo8+nujZxYIeMEH3LnBoURlt5OWG\nnDl6nZd3xyQzexCvJxBWvz96n4oa/R41ESlLopXXBMJWjo4+bbXbClKUuJJV/6d1\nPihNUCHLHI1fvtzL7fZ3q0+tDBmQIgSbZXLmjtEermoHuAZjiSXg/vDCmzVgj7+6\nkN/0m7/2kbS80J8wsDDsVdux5nyOFje+Me1YHaPb47qC4wHL86fhgN5oxEJR90UX\nnGEWQBmqRw9gIuPHEo1fjId1EpJviBQHqrgLH83ukQKBgQDtc8PJanoMF8bvYO+b\nUquFvRQrGezRTCre4subRWJs837Eel7GFiVNOm9AIEzGaJ4+RIVLiND5qx9xxkjI\nYc115fAxbx/bwqTg0W2zua5qOUHJ63vkU5Pe+zSx6h18grr1gXSXxaO2+/4dDfa9\nzWifRfqyssvYvDjrCdsXfDtsmwKBgQC4gbP0qj0cdit2pjlFJK8RoNGBDY9WvHvE\nur2tt47wR7gEL3SxiLRBIZFXW2PntNem+ui2haqQsXF+9brGb2e/s9uqKtxsFcWW\nkfP1FUkXhHg3jZSFDMw3V3K1+a7/i3RbpFTdSMzNrUQzEZwBmE+fz6fFME2rKAQ2\ng6rII6eksQKBgGOKIOwBT7JcEU/t8ePJzw9cSOUclBLU/C+9IR8xAeasWFri9XHS\nfMaYFWTrZWPTHWr67GnSq8/NtXvLZF1j6m5e+sauT8ufF+EKyhMKZpwu7m5H4gLA\nKn/SDK/8dWnpn5glMYwiFNQzZL4nSWUdg5spCcP5gcyUcsPMuORqdrq7AoGAIc8a\nk6WyRwncUwSIkAP11Iwcd8JtVp55K4ZwhWmSVrM9o/6yKmn7Zcfp4xELEIVR0vY9\nOFzr8VGik3ohvITjhPxHLzplY6TlrP6Xrnw1BYsvoDZgVbUPosByc6gKCiearcRC\nDL5vUO0EBzud06j+RjF986MzSD6v7vFXlQ77hDECgYEAx2SygLm3d6hCI5EW3C12\nh5Zg8aEeWrDijb0cu4z9+wEzmS/XXp0PTX7Ld8RuFA6m3zU+ZGR2oZiulwheTLjf\nTvV6WsX+qU20yKTRfIodoJhptlOS+ksVJ0sL6y6J14Awh9JkRj4qvfCp9MCwFFpn\nRN6i9SvXdjBf4AJvpnfnFQA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "attendance-monitoring@attendance-monitoring-393907.iam.gserviceaccount.com",
+  "client_id": "113697018725506125914",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/attendance-monitoring%40attendance-monitoring-393907.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

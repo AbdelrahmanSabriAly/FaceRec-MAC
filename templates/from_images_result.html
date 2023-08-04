@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition from Images Result</title>
+</head>
+<style media="screen">
+    *,
+    *:before,
+    *:after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #080710;
+    }
+    .background {
+      width: 430px;
+      height: 520px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+    .background .shape {
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      border-radius: 50%;
+    }
+    .shape:first-child {
+      background: linear-gradient(
+        #1845ad,
+        #23a2f6
+      );
+      left: -80px;
+      top: -80px;
+    }
+    .shape:last-child {
+      background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+      );
+      right: -30px;
+      bottom: -80px;
+    }
+    form {
+      height: 620px;
+      width: 400px;
+      background-color: rgba(255, 255, 255, 0.13);
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+      padding: 50px 35px;
+      
+    }
+    form * {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff; /* Changed text color to white */
+      letter-spacing: 0.5px;
+      outline: none;
+      border: none;
+
+    }
+    form h3 {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+      color: #ffffff;
+    }
+    select, option {
+      color: black; /* Set the text color to black for the select box */
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    input {
+      display: inline-block; /* Display the radio buttons inline */
+      height: 30px; /* Adjust the height of radio buttons */
+      width: 30px; /* Adjust the width of radio buttons */
+      margin-right: 5px; /* Add some spacing between radio buttons and labels */
+      background-color: rgba(255, 255, 255, 0.07);
+      border-radius: 3px;
+      padding: 0 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #ffffff; /* Change the font color to white */
+    }
+    ::placeholder {
+      color: #e5e5e5;
+    }
+
+
+  /* Additional CSS to customize the file upload widget appearance */
+  .custom-file-upload {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+      margin-top: 25px;
+      width: 100%;
+      height: 10%;
+      background-color: #ffffff;
+      
+      color: #080710;
+      padding: 15px 0;
+      font-size: 25px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .radio-container {
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .radio-container input[type="radio"] {
+      margin-right: 5px;
+    }
+  /* Additional CSS to customize the file upload widget appearance */
+  .custom-file-upload {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 16px;
+    width: 100%; /* Set the width to 100% to fill the parent container */
+  }
+  button {
+      margin-top: 25px;
+      width: 100%;
+      height: 10%;
+      background-color: #ffffff;
+      
+      color: #080710;
+      padding: 15px 0;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    
+    </style>
+
+
+<head>
+    <title>Face Recognition from Images Result</title>
+</head>
+<body>
+  <!-- Add a button to download the recognized id_names as an Excel file -->
+  <form action="/download_from_images_id_names" method="get">
+      <h3>Face Recognition from Images Result</h3>
+      <p>Number of images uploaded: {{ num_images }}</p>
+
+      <!-- Loop through each preprocessed image and its label -->
+      {% for image, label in processed_images %}
+          <!-- Display the preprocessed image using 'img' tag -->
+          <img src="data:image/png;base64,{{ image }}" alt="{{ label }}" width="300">
+          <br>
+      {% endfor %}
+
+      <!-- Add a button to trigger the download -->
+      <button type="submit">Download Attendance List</button>
+  </form>
+</body>
+</html>
