@@ -9,3 +9,4 @@ tqdm==4.65.0
 uvicorn==0.22.0
 Jinja2==3.1.2
 jinja2-time==0.2.0
+python-multipart==0.0.6
