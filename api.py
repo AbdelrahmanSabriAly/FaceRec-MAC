@@ -176,7 +176,7 @@ def load_dict(year):
 
         # Authorize with Google Sheets API using credentials
         scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-        creds = ServiceAccountCredentials.from_json("/etc/secrets/google_credentials.json", scope)
+        creds = ServiceAccountCredentials.from_json_keyfile_name("/etc/secrets/google_credentials.json", scope)
         client = gspread.authorize(creds)
         # Open the Google Sheet by its name
         sheet = client.open(sheet_name).sheet1
