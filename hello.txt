@@ -1,0 +1,4 @@
+Hi Abdelrahman . I am Khaled . 
+I write this message from VS code terminal on my Linux Virtual machine and 
+I am glad to tell you that I successfully link the git repo with vs code in linux -which is very good OS to use- 
+But the problem now is how to install the requirements :)x
